@@ -11,9 +11,16 @@
     $nome = "Luciano Da Costa Macedo";
     $idade = 25;
     $altura = 1.60;
+    $soma = 4 + 4; 
+    $subtração = 5 - 5 ; 
+    $divisao = 9 / 5;
+    $multiplos = (5 + 5)*4/6;
 
-    echo "Meu nome é $nome minha idade é $idade minha altura é $altura" ;
-
+    echo "Meu nome é $nome minha idade é $idade minha altura é $altura<br>" ;
+    echo "a soma é $soma<br>";
+    echo "a subtração é $subtração<br>";
+    echo "a divisão é $divisao<br>";
+    echo "varios operações $multiplos<br>";
 
     ?>
 </body>
