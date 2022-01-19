@@ -16,7 +16,7 @@
         echo "o nome é $nome";
     }
 */
-
+/*
 $nota1 = 7;
 $nota2 = 8;
 $calculo = $nota1 + $nota2/2;
@@ -26,7 +26,17 @@ if($calculo > 7){
 }else{
     echo "aluno está reprovado";
 }
+*/
 
+$nome = "Carlos";
+
+switch ($nome) {
+    case'variavle':
+        echo "isto é uma variavel";
+        break;
+    case 'Luciano':
+        echo "Isto é um nome";
+}
 
 
     ?>
