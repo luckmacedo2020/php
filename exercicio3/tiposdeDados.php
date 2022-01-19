@@ -8,15 +8,25 @@
 </head>
 <body>
     <?php
+/*
+    $nome = "Bruna";
+    if ($nome == "Luciano") {
+        echo "o nome é Luciano";
+    }else{
+        echo "o nome é $nome";
+    }
+*/
 
-    $nome = "Luciano da costa macedo";
-    var_dump($nome);
-    if(is_string($nome)):
-        echo "é uma string";
-    else:
-        echo "não é uma string";
-    
-    endif
+$nota1 = 7;
+$nota2 = 8;
+$calculo = $nota1 + $nota2/2;
+
+if($calculo > 7){
+    echo "Aluno está aprovado";
+}else{
+    echo "aluno está reprovado";
+}
+
 
 
     ?>
